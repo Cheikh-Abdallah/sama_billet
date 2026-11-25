@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Sama Billet — Billetterie au Sénégal",
+  "short_name": "Sama Billet",
+  "description": "Découvrez les événements et retrouvez vos billets avec Sama Billet.",
+  "lang": "fr-SN",
+  "start_url": "/index.php",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf9f7",
+  "theme_color": "#6c5ce7",
+  "icons": [
+    {"src": "/assets/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "/assets/icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
