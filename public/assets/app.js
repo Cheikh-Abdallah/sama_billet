@@ -1,0 +1,3 @@
+document.querySelector('.nav-toggle')?.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.toggle('open'));
+const quantity=document.querySelector('.quantity');
+if(quantity){const input=quantity.querySelector('input');const price=document.querySelector('[data-price]');const base=Number(price?.dataset.price||0);const minus=quantity.querySelector('[data-minus]');const plus=quantity.querySelector('[data-plus]');const update=()=>{const n=Number(input.value);price.textContent=new Intl.NumberFormat('fr-FR').format(n*base)+' FCFA';};minus?.addEventListener('click',()=>{input.value=Math.max(1,Number(input.value)-1);update()});plus?.addEventListener('click',()=>{input.value=Math.min(Number(input.max),Number(input.value)+1);update()});}
